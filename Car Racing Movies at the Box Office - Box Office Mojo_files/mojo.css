@@ -1,0 +1,413 @@
+/*BOX OFFICE MOJO STYLE SHEET
+Based on home page styles
+TRK March 5, 2010 */
+
+body {
+	background: #CCC;
+	padding: 0px;
+	margin: 0px;
+	font-family: Tahoma,Verdana,Segoe,Arial,sans-serif;
+/*	letter-spacing: 1px;*/
+	font-size: 13px;
+}
+div#container {
+	width: 1008px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0px;
+	background: #ffffff;
+	border-left: solid 1px #333;
+	border-right: solid 2px #333;
+}
+a:link {
+	color: #000080;
+	text-decoration: none
+}
+a:active {
+	color: #000080;
+	text-decoration: none
+}
+a:visited {
+	color: #000080;
+	text-decoration: none
+}
+a:hover {
+	color: #000080;
+	text-decoration: underline;
+}
+
+a:link.spotlight, a:visited.spotlight, a:active.spotlight {
+	color: #c5a490;
+	text-decoration: none;
+/*	background: none*/
+}
+a:hover.spotlight {
+	color: #ffffff;
+	text-decoration: none;
+/*	background: none*/
+}
+
+/* left navigation, css version*/
+/*table#navleft {
+width: 120px;
+border: 0;
+}
+*//*table#navleft tr {
+	padding: 2px;
+}*/
+
+ul#leftnav {
+	line-height: 150%;
+	list-style: none;
+	margin-left: 0;
+	padding-left: 5px;
+}
+
+li.nl_section, li.nl_link {
+	margin-left:0;
+	margin-bottom:0;
+	list-style: none;	
+}
+
+.nl_section {
+	padding-top: 13px;
+	font-weight: bold;
+}
+.nl_link {
+	padding-left: 5px;
+}
+.nl_link_current {
+	padding-left: 5px;
+	font-weight: bold;
+}
+
+/* homepage styles */
+table#latest_updates, table#showdowns, table#hp_boxoffice, table#topstories {
+}
+table#hp_boxoffice {
+	font-size: 11px;
+}
+td.lu_date {
+	font-weight: bold;
+}
+td.lu_entry {
+	border: none;
+}
+div.hp_box {
+	border-top: 1px solid #666;
+	padding: 0px 0px;
+	margin-bottom: 10px;
+
+}
+div.hp_boteaser {
+	border: 1px solid black;
+	padding: 2px 0px;
+	margin-bottom: 10px;
+}
+table.hp_box td {
+	padding: 2px;
+	border: none;
+}
+table.hp_box tr {
+	border: none;
+}
+
+div.hp_box h3 {
+/*	font-size: 120%;*/
+	font-size: 14px;
+	font-weight: bold;
+	margin: 0px;
+}
+
+div.hp_box p {
+/* font-size: 13px; */
+margin: 1em 0px 0px;
+}
+
+div#storyspc {
+	padding: 0 0 10px;
+	margin: 0 0 10px;
+	border-bottom: 1px solid #ccc;
+/*	margin-top: 3px;
+	margin-bottom: 4px
+*/}
+
+/* top stories box */
+div#storyspc h2 {
+/* font-size: 140%;*/
+font-size: 24px;
+font-weight: bold;
+margin: 0px;
+}
+
+div#storyspc h3 {
+/* font-size: 140%;*/
+font-size: 18px;
+font-weight: bold;
+margin: 0px;
+}
+
+
+div#storyspc h4 {
+/* font-size: 140%;*/
+font-size: 14px;
+font-weight: bold;
+margin: 0px;
+}
+
+
+div#storyspc p a {
+	color: black;
+}
+
+div#storyspc a img { border: 1px solid black; 
+/*	margin: 5px; */
+}
+
+div#storyspc h2 a, div#storyspc h3 a, div#storyspc h4 a {
+	color: #880000;
+	padding: 0 2px;
+}
+/*div#storyspc h4 a {
+	color: #880000;
+	padding: 0 2px;
+}*/
+
+
+
+div#hp_footer {
+	text-align: center;
+	background: #eee;
+}
+
+div#header {
+	position: relative;
+	padding: 0px 0px;
+	margin-bottom: 10px;
+	border-bottom: 1px solid #ccc;
+	background: #eee;
+	height: 90px;
+	overflow: visible;
+/*	background-image: url('/img/misc/dollar.png');
+	background-repeat: no-repeat;
+	background-position: -450px -150px;*/
+}
+
+div#leaderboard {
+	overflow: visible;
+	position: absolute;
+	right:0px;
+	top: 0px;
+	height: 90px;
+	text-align: right;
+}
+
+div#hp_logo {
+	position:absolute;
+	left: 0;
+	bottom: -12px;
+	padding: 0px 10px;
+	background: none;
+	overflow: visible;
+}
+
+div#hp_logo h1 {
+	font-size: 24px;
+	overflow: visible;
+	font-family: Verdana;
+	font-weight: 900;
+ 	vertical-align: text-bottom;
+/*	line-height: 24px;*/
+	padding: 0px;
+	margin: 0px;
+}
+
+div#hp_logo a img { border: none;}
+
+div#hp_footer {
+	border-top: 1px solid #999;
+	margin-top: 20px;
+	padding: 10px 0px 20px;
+	color: #333;
+/*	background-image: url('/img/misc/dollar.png');
+	background-repeat: no-repeat;*/
+}
+
+
+div#footer_links {
+	text-align: left;
+	float:left;
+	width:520px;
+	padding:0;
+/*	border: 1px solid black;*/
+}
+
+#footer_links a {
+	color: #333;
+}
+ul.footer_link_list {
+	width:120px;
+	margin-left: 0px;
+	margin-right:10px;
+	float:left;
+	text-align: left;
+	list-style: none;
+	padding:0px;
+	margin-top: 0;
+}
+
+div#copyright {
+	float: left;
+	text-align: left;
+	width:245px;
+	font-size:9px;
+	padding-bottom: 20px;
+}
+#copyright a img {
+	border: none;
+}
+#copyright p {
+	margin: 0px;
+}
+div#hp_banner p {
+	font-weight: bold;
+	margin: 0px;
+	color: #666;
+}
+div#top_links {
+	font-size: 11px;
+	margin: 0px;
+	padding: 2px 2px;
+	background: #666;
+	color: white;
+}
+div#top_links a {
+	color: white;
+}
+div.hp_tab {
+	padding-top: 0px;
+	text-align: left;
+	font-weight: bold;
+	font-size: 13px;
+	text-transform: uppercase;
+	color: #880000;
+		margin-top: 30px;
+}
+
+/* PAGE LAYOUT STYLES */
+div#main { 
+	width: 1008px;
+	padding: 0px;
+	margin: 0px;
+	overflow: auto;
+/*	height: auto: !important;*/
+}
+div#leftnav {
+	width: 100px;
+	float: left;
+/*	padding-left: 10px;*/
+	margin: 0;
+	height: auto !important;
+}
+div#body {
+	width: 878px;
+	float: left;
+	margin-left: 10px;
+	height: auto !important;
+}
+
+/* HOME PAGE COLUMNS */
+div#col2 {
+	width: 302px;
+	float: left;
+}
+div#col3 {
+	margin-left: 10px;
+	width: 244px;
+	float: left;
+/*	visibility:hidden;*/
+}
+div#col4 {
+	width: 302px;
+	margin-left: 566px;
+}
+/* MOVIE PAGE STYLES */
+div.mp_box_content {
+	border-top: 1px solid #666;
+	padding: 0px 0px;
+	margin-bottom: 10px;
+	font-size: 13px;
+}
+div.mp_box_tab {
+	padding-top: 0px;
+	text-align: left;
+	font-weight: bold;
+	font-size: 14px;
+	color: #880000;
+}
+
+div#addthis {
+	text-align: right;
+	float: right;
+}
+
+div#addthis_toolbox.addthis_default_style { }
+
+/* GOOGLE AFC STYLES */
+div.afc_wide { 
+	font-size: 13px; 
+	font-family: Tahoma,Helvetica,Segoe,sans-serif; 
+/*	border: 1px solid #999; */
+	height: 90px;
+	margin: 10px 10px; }
+	
+/*div.afc_wide table { padding: 0; margin:0; }*/
+
+span.afc_line1 { font-weight: bold;}
+span.afc_line2 { color: black;}
+span.afc_line3 { font-size: 13px; color: #8b0000 }
+
+/* NAVIGATION TABS */
+
+ul.nav_tabs {
+	text-align: left; /* set to left, right or center */
+	margin: 1em 0 1em 0; /* set margins as desired */
+	font: 13px Tahoma,Helvetica,Segoe,sans-serif; /* set font as desired */
+	border-bottom: 1px solid #666; /* set border COLOR as desired */
+	list-style-type: none;
+	padding: 3px 10px 3px 10px; /* THIRD number must change with respect to padding-top (X) below */
+}
+
+ul.nav_tabs li {
+	display: inline;
+}
+
+ul.nav_tabs li a {
+	padding: 3px 15px; /* set padding (tab size) as desired; FIRST number must change with respect to padding-top (X) above */
+	border: 1px solid #666; /* set border COLOR as desired; usually matches border color specified in #tabnav */
+	background-color: #dcdcdc; /* set unselected tab background color as desired */
+	margin-right: 0px; /* set additional spacing between tabs as desired */
+	text-decoration: none;
+	border-bottom: none;
+}
+
+ul.nav_tabs li.nav_tab_current {
+	border-bottom: 1px solid #fff; /* set border color to page background color */
+	background-color: #fff; /* set background color to match above border color */
+}
+
+ul.nav_tabs li.nav_tab_current a {
+	background-color: #fff; /* set selected tab background color as desired */
+	color: #000; /* set selected tab link color as desired */
+	position: relative;
+	top: 1px;
+	padding-top: 4px; /* must change with respect to padding (X) above and below, +1 px to replace border */
+	font-weight: bold;
+/*		border-bottom: 1px solid #fff; */
+		/* set border color to page background color */
+}
+
+
+.fb-like-box{
+    margin-bottom:-15px;
+}
